@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="resolve-web:war exploded">
+    <output-path>$PROJECT_DIR$/resolve-web/target/resolve-web</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="resolve-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="project-B-1.0.jar">
+            <element id="module-output" name="project-B" />
+          </element>
+          <element id="archive" name="project-C-1.0.jar">
+            <element id="module-output" name="project-C" />
+          </element>
+          <element id="archive" name="project-A-1.0.jar">
+            <element id="module-output" name="project-A" />
+          </element>
+          <element id="archive" name="project-commmon-1.0.jar">
+            <element id="module-output" name="project-commmon" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/resolve-web/target/resolve-web/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="resolve-web/web/Web" />
+    </root>
+  </artifact>
+</component>

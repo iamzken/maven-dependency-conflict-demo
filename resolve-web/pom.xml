@@ -23,6 +23,12 @@
             <groupId>project-A</groupId>
             <artifactId>project-A</artifactId>
             <version>1.0</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>project-common</groupId>
+                    <artifactId>project-commmon</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
 
